@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:text="This is Second Activity !"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Select Date"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:id="@+id/dateBtnId">
+
+    </Button>
+    <TextView
+        android:id="@+id/dateTextId"
+        android:text="Date:"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Select Time"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:id="@+id/timeBtnId">
+
+    </Button>
+    <TextView
+        android:id="@+id/timeTextId"
+        android:text="Time:"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
